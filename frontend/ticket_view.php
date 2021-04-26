@@ -58,7 +58,7 @@ echo '<!DOCTYPE html>
 			</div>
 </br></br></br></br></br></br>';
 
-echo "<h1>List of tickets with cutomer name and flight details</h1>";
+echo "<h1>List of tickets with customer name and flight details</h1>";
 $sql="SELECT * from customer, ticket, booked_leg
 where ticket.ticket_id=booked_leg.ticket_id
 and customer.cust_id=ticket.cust_id";

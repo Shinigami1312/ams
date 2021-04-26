@@ -217,8 +217,8 @@ CREATE TABLE `crew` (
 --
 
 INSERT INTO `crew` (`SSN`, `Name`, `Gender`, `Job`, `airplane_id`) VALUES
-('e1', 'sharfds', 'M', 'Pilot', 1),
-('e2', 'dharfds', 'M', 'Co-pilot', 1),
+('e1', 'jayraj', 'M', 'Pilot', 1),
+('e2', 'abhi', 'M', 'Co-pilot', 1),
 ('e3', 'gargi', 'F', 'Stewardess', 1),
 ('e4', 'grewal', 'F', 'Pilot', 2),
 ('e5', 'grandhi', 'M', 'Co-pilot', 2),
@@ -243,9 +243,9 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`fname`, `lname`, `phone_no`, `cust_id`) VALUES
-('shardul', 'singh', '9483468064', 'cid1'),
+('jayraj', 'vakil', '9483468064', 'cid1'),
 ('fun', 'saps', '6549843209', 'cid10'),
-('stone', 'shankar', '090990777', 'cid11'),
+('stone', 'jayraj', '090990777', 'cid11'),
 ('wise', 'elli', '5438976000', 'cid12'),
 ('sharadi', 'saibaba', '4392311123', 'cid13'),
 ('shibani', 'hegde', '12343546', 'cid14'),
@@ -254,12 +254,12 @@ INSERT INTO `customer` (`fname`, `lname`, `phone_no`, `cust_id`) VALUES
 ('mary', 'wattson', '987009877', 'cid17'),
 ('peter', 'parker', '12309878', 'cid18'),
 ('jonah', 'jameson', '46587688', 'cid19'),
-('shreyas', 'patil', '9854354345', 'cid2'),
+('abhi', 'sinojia', '9854354345', 'cid2'),
 ('sidvin', 'vinay', '8979889777', 'cid20'),
-('shreyas', 'miraj', '6546546546', 'cid3'),
+('jayraj', 'miraj', '6546546546', 'cid3'),
 ('sidhharth', 'ganesan', '432432466', 'cid4'),
-('shreyas', 'ainapur', '3213435354', 'cid5'),
-('shruthi', 'shankar', '467898764', 'cid6'),
+('abhi', 'ainapur', '3213435354', 'cid5'),
+('shruthi', 'abhi', '467898764', 'cid6'),
 ('sumukha', 'Prasad', '943243244', 'cid7'),
 ('hans', 'greuber', '542532434', 'cid8'),
 ('luke', 'skywalker', '98765678', 'cid9');
@@ -348,13 +348,13 @@ CREATE TABLE `ticket` (
 --
 
 INSERT INTO `ticket` (`ticket_id`, `cust_id`, `class`, `amount`, `seat_no`, `date`) VALUES
-('tkt0223', 'cid3', 'business', 6000, 4, '2017-02-02'),
-('tkt0233', 'cid3', 'economy', 5000, 34, '2017-02-03'),
-('tkt2134', 'cid4', 'economy', 1200, 32, '2017-03-21'),
-('tkt2135', 'cid5', 'economy', 1200, 31, '2017-03-21'),
-('tkt2136', 'cid6', 'business', 6000, 3, '2017-03-21'),
-('tkt2611', 'cid1', 'economy', 2000, 13, '2017-01-26'),
-('tkt2612', 'cid2', 'business', 5000, 1, '2017-01-26');
+('tkt0233', 'cid3', 'economy', 5000, 34, '2021-04-03'),
+('tkt2134', 'cid4', 'economy', 1200, 32, '2021-04-21'),
+('tkt2135', 'cid5', 'economy', 1200, 31, '2021-03-21'),
+('tkt2136', 'cid6', 'business', 6000, 3, '2021-03-21'),
+('tkt2611', 'cid1', 'economy', 2000, 13, '2021-04-12'),
+('tkt2612', 'cid2', 'business', 5000, 1, '2021-04-12'),
+('tkt0223', 'cid3', 'business', 6000, 4, '2021-04-02');
 
 --
 -- Indexes for dumped tables

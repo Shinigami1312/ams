@@ -1,4 +1,5 @@
 <?php
+$Insert=$Delete='';
 extract($_GET);
 // Create connection
 $conn = mysqli_connect("localhost","root","","indigo");
